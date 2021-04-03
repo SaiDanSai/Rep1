@@ -1,3 +1,86 @@
-body {
-    color: #ff0000;
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
 }
+
+body {
+    background-color: #bdbdbd;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 20px auto 0;
+    width: 80%;
+}
+
+#logo {
+    color: #212121;
+    text-shadow: 0 0 20px #ffffff;
+    font-size: 3em;
+    background-color: #0288D1;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    /* width: 80%; */
+    margin: 0 auto;
+    padding: 20px 10px;
+    font-weight: 800;
+    border: 10px solid #B3E5FC;
+    border-radius: 25px;
+}
+
+.main {
+    background-color: #0288D1;
+    border: 10px solid #B3E5FC;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
+.itemClass, .redectors {
+    border-top: 5px solid #ffffff;
+    padding: 10px 0;
+}
+
+.nameOfClass {
+    text-shadow: 0 0 15px #ffffff;
+    text-align: center;
+    font-size: 3em;
+    padding: 10px 0;
+}
+
+/* main {
+    
+} */
+
+.item {
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #00a6ff;
+    border-radius: 50px;
+}
+
+.itemLogo {
+    border-radius: 15px;
+    width: 60px;
+}
+
+.itemName {
+    font-weight: 500;
+    font-size: 35px;
+    color: #212121;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+.inter {
+    width: 500px;
+    height: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
